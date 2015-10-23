@@ -48,6 +48,14 @@ public class TicketMachine
     }
 
     /**
+     * Return the total money in the machine
+     */
+    public int getTotal()
+    {
+        return total;
+    }
+    
+    /**
      * Receive an amount of money from a customer.
      */
     public void insertMoney(int amount)
@@ -75,4 +83,13 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    
+    /**
+     * Fija el precio del billete a un precio dado:
+     * 
+     */
+     public void setPrice(int precioDelBillete)
+     {
+         price = precioDelBillete;
+        }
 }
