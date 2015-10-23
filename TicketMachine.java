@@ -100,5 +100,13 @@ public class TicketMachine
      {
         System.out.println("Please, insert the correct amount of money.");
     }
+    /**
+     * Mostrar precio de un ticket
+     * 
+     */
+     public void showPrice()
+    {
+        System.out.println("The price of a ticket is " + price + " cents");
+    }
 }
 
