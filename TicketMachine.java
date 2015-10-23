@@ -23,12 +23,23 @@ public class TicketMachine
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
+    public TicketMachine()
+    {
+        price = 800;
+        balance = 0;
+        total = 0;
+    }
+    
+    /**
+     * Constructor con parametro
+     */
     public TicketMachine(int cost)
     {
         price = cost;
         balance = 0;
         total = 0;
     }
+    
 
     /**
      * Return the price of a ticket.
